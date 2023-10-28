@@ -1,0 +1,36 @@
+body {
+    background-color: #eee;
+  }
+  #header {
+    position: absolute;
+    top: 10px;
+  }
+  li {
+    list-style: none;
+    display: inline;
+  }
+  a {
+      text-align: rigth;
+  
+  }
+  #header-img  {
+    width: 25vw;
+    display: flex;
+    flex-direction: inhert;
+    justify-content: left;
+  }
+  main {
+    position: fixed;
+    top: 10%;
+    text-align: center;
+  }
+  input {
+    display: block;
+    text-align: center;
+  }
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
