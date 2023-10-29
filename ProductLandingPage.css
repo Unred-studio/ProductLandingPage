@@ -1,36 +1,102 @@
+@media screen and (max-width: 992px) {
+  body {
+    background-color:  #f7f7f7;
+  }
+}
+
 body {
-    background-color: #eee;
+  margin: 100px 0 0 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+
+ /* Styling the header */
+#header {
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+#header-img {
+  display: block;
+  margin: auto;
+  margin-left: 20px;
+  max-width: 30%;
+  max-height: 30%;
+}
+
+/* Styling for the navigation menu */
+nav ul {
+  right: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 10px 20px; 
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+/* Style for the email input form */
+#form-header {
+  margin-top: 20px;
+  text-align: center;
+  font-family: Roboto;
+}
+
+label {
+  display: block;
+  margin: 10px auto;
+  font-size: 16px;
+  max-width: 20%;
+}
+
+#email {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#submit {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+#submit:hover {
+  background-color: #0056b3; 
+}
+
+/* Styling features section */
+.centered-content {
+  margin: 30px auto;
+  text-align: center; 
+}
+
+#icon {
+  color: darkorange;
+  font-size: 48px;
   }
-  #header {
-    position: absolute;
-    top: 10px;
-  }
-  li {
-    list-style: none;
-    display: inline;
-  }
-  a {
-      text-align: rigth;
-  
-  }
-  #header-img  {
-    width: 25vw;
-    display: flex;
-    flex-direction: inhert;
-    justify-content: left;
-  }
-  main {
-    position: fixed;
-    top: 10%;
-    text-align: center;
-  }
-  input {
-    display: block;
-    text-align: center;
-  }
-  @media screen and (max-width: 992px) {
-    body {
-      background-color: blue;
-    }
-  }
-  
